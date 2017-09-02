@@ -39,7 +39,7 @@ a = np.arange(1, 13).reshape((3, 4))
 print(a)
 
 print('*' * 50)
-# 创建一个范围的线段，可以指定步长
+# 创建一个范围的线段，可以指定段数
 a = np.linspace(1, 10, 6)
 print(a)
 print(a.reshape(2, 3))

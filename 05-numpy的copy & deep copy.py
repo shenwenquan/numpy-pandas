@@ -1,6 +1,6 @@
 import numpy as np
 
-a =  np.arange(4)
+a = np.arange(4)
 
 print(a)
 
@@ -15,6 +15,3 @@ print(b)
 print(c)
 print(d)
 print(e)
-
-
-

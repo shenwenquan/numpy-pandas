@@ -52,10 +52,10 @@ print('avg2:', np.average(A))
 print('avg3:', A.mean())
 print('median:', np.median(A))
 print('cumsum:', np.cumsum(A))
-print('diff:', np.diff(A))
-print('nonzero:', np.nonzero(A))
+print('diff:', np.diff(A))  # 累差
+print('nonzero:', np.nonzero(A))  # 将行和列的索引分开，形成两个数组
 print('sort:', np.sort(A))
-print('transpose:', np.transpose(A))
+print('transpose:', np.transpose(A))  # 同A.T
 print('T:', A.T)
 print('AT*A:', (A.T).dot(A))
-print('clip:', np.clip(A, 5, 9))
+print('clip:', np.clip(A, 5, 9))  # 所有小于5都等于5，所有大于9都变成9
